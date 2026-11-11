@@ -8,8 +8,7 @@ flutter --version
 
 if [ ! -d android ]; then
   echo "2/5  Creating Android and iOS project files..."
-  flutter create --org in.softskirl --project-name skirlfield_app --platforms android,ios .
-fi
+       flutter create --org com.softskirl --project-name skirlfield_app --platforms android,ios .
 
 echo "3/5  Adding GPS permissions to AndroidManifest.xml..."
 M=android/app/src/main/AndroidManifest.xml
